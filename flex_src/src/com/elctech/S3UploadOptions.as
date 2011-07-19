@@ -9,6 +9,7 @@ package com.elctech {
         public var bucket:String;
         public var CacheControl:String;
         public var ContentType:String;
+        public var ContentDisposition:String;
         public var ContentEncoding:String;
         public var Expires:String;
         public var key:String;
