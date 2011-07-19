@@ -27,7 +27,6 @@ class S3UploadsController < ApplicationController
         {'key': '#{key}'},
         {'acl': '#{acl}'},
         {'Content-Type': '#{content_type}'},
-        {'Content-Disposition': 'attachment'},
         ['starts-with', '$Filename', ''],
         ['eq', '$success_action_status', '201']
     ]
